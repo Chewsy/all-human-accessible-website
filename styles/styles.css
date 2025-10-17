@@ -178,6 +178,90 @@ article p {
     border-radius: 5px;
 }
 
+<<<<<<< HEAD
+=======
+.article-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-link:focus {
+    outline: 1px solid #5d80a6;
+    border-radius: 20px;
+}
+
+#caseStudies article:hover,
+.article-link:hover {
+    transform: translateY(-6px);
+    transition: transform 180ms ease;
+    cursor: pointer;
+}
+
+#caseStudies article {
+    transition: transform 180ms ease;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #5d80a6;
+    width: 100%;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+}
+
+.footer-section p {
+    font-size: small;
+}
+
+.footer h3,
+.footer h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.footer p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: underline;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease;
+}
+
+.footer-links a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+/* Mediaqueries */
+>>>>>>> parent of 203fa6e (Footer op website)
 @media (min-width: 768px) {
     #articles {
         display: grid;
